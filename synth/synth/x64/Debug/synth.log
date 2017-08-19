@@ -1,12 +1,9 @@
 ﻿  synth.cpp
-d:\it\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
-D:\IT\Simple_And_Fast_Sound_Synthesizer\synth\synth\deps\include\STK/Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
-synth.cpp(60): warning C4305: 'argument' : truncation from 'double' to 'float'
-synth.cpp(455): warning C4244: 'argument' : conversion from 'float' to 'unsigned long', possible loss of data
-synth.cpp(459): warning C4244: 'argument' : conversion from 'float' to 'unsigned long', possible loss of data
+d:\it\simple_and_fast_sound_synthesizer\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+D:\IT\Simple_And_Fast_Sound_Synthesizer\Simple_And_Fast_Sound_Synthesizer\synth\synth\deps\include\STK/Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
   main.cpp
-d:\it\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
-D:\IT\Simple_And_Fast_Sound_Synthesizer\synth\synth\deps\include\STK/Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+d:\it\simple_and_fast_sound_synthesizer\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+D:\IT\Simple_And_Fast_Sound_Synthesizer\Simple_And_Fast_Sound_Synthesizer\synth\synth\deps\include\STK/Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
   Voicer.cpp
   Thread.cpp
 deps\include\STK\Thread.cpp(51): warning C4244: '=' : conversion from 'uintptr_t' to 'THREAD_HANDLE', possible loss of data
@@ -27,7 +24,7 @@ deps\include\STK\RtWvIn.cpp(53): warning C4267: '=' : conversion from 'size_t' t
   Mutex.cpp
   Messager.cpp
   JCRev.cpp
-d:\it\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+d:\it\simple_and_fast_sound_synthesizer\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
   FileWvOut.cpp
   FileWvIn.cpp
   Generating Code...
@@ -38,27 +35,27 @@ deps\include\STK\FileWrite.cpp(724): warning C4267: 'initializing' : conversion 
   FileRead.cpp
   Envelope.cpp
   Echo.cpp
-d:\it\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+d:\it\simple_and_fast_sound_synthesizer\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
   DelayL.cpp
-d:\it\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+d:\it\simple_and_fast_sound_synthesizer\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
 deps\include\STK\DelayL.cpp(59): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
 deps\include\STK\DelayL.cpp(68): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
   Delay.cpp
-d:\it\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+d:\it\simple_and_fast_sound_synthesizer\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\Delay.h(40): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
 deps\include\STK\Delay.cpp(57): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
 deps\include\STK\Delay.cpp(87): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
 deps\include\STK\Delay.cpp(96): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
 deps\include\STK\Delay.cpp(105): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
   Clarinet.cpp
-d:\it\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+d:\it\simple_and_fast_sound_synthesizer\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
   Chorus.cpp
-d:\it\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+d:\it\simple_and_fast_sound_synthesizer\simple_and_fast_sound_synthesizer\synth\synth\deps\include\stk\DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
   BlitSquare.cpp
   BlitSaw.cpp
   BiQuad.cpp
   ADSR.cpp
   RtMidi.cpp
   Waves.cpp
-D:\IT\Simple_And_Fast_Sound_Synthesizer\synth\synth\deps\include\STK/DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
+D:\IT\Simple_And_Fast_Sound_Synthesizer\Simple_And_Fast_Sound_Synthesizer\synth\synth\deps\include\STK/DelayL.h(43): warning C4267: 'return' : conversion from 'size_t' to 'unsigned long', possible loss of data
   Generating Code...
-  synth.vcxproj -> D:\IT\Simple_And_Fast_Sound_Synthesizer\synth\x64\Debug\synth.exe
+  synth.vcxproj -> D:\IT\Simple_And_Fast_Sound_Synthesizer\Simple_And_Fast_Sound_Synthesizer\synth\x64\Debug\synth.exe

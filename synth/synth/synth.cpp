@@ -8,7 +8,8 @@ static void finish(int ignore){ done = true; }
 
 Synth::Synth() : sine{ new Sinus(10.0) }, square{ new Square(10.0) }, saw{ new Sawtooth(10.0) }
 {
-	// Inicjalizacja g³ównego 	m_render_window = std::make_unique<sf::RenderWindow>(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Simple and Fast Sound Synthesizer");
+	// Inicjalizacja g³ównego 	
+	m_render_window = std::make_unique<sf::RenderWindow>(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Simple and Fast Sound Synthesizer");
 
 	//Tworzymy okno aplikacji
 	window = sfg::Window::Create();
@@ -56,7 +57,7 @@ Synth::Synth() : sine{ new Sinus(10.0) }, square{ new Square(10.0) }, saw{ new S
 	chorus_slider->SetRequisition(sf::Vector2f(100.0f, 0.0f));
 	chorus_slider->GetAdjustment()->SetValue(0);
 
-	reverb_slider = sfg::Scale::Create(0.01, 100, 2, sfg::Scale::Orientation::HORIZONTAL);
+	reverb_slider = sfg::Scale::Create(0.01f, 100, 2, sfg::Scale::Orientation::HORIZONTAL);
 	reverb_slider->SetRequisition(sf::Vector2f(100.0f, 0.01f));
 	reverb_slider->GetAdjustment()->SetValue(0.01f);
 
@@ -192,7 +193,7 @@ Synth::Synth() : sine{ new Sinus(10.0) }, square{ new Square(10.0) }, saw{ new S
 	m_desktop.Add(window);
 
 	// Inicjalizacja biblioteki rysuj¹cej
-	m_render_window->resetGLStates();
+	m_render_window->resetGLStates();		// To avoid exception with 'sfml-graphics-d-2.dll' library comment this line
 
 }
 
@@ -451,11 +452,11 @@ void Synth::Run() {
 			data.envelope.setSustainLevel(sustain_slider->GetValue());
 			data.envelope.setReleaseTime(release_slider->GetValue());
 
-			data.delay.setDelay(delay_slider->GetValue() * 40);	//filtry
+			data.delay.setDelay((unsigned long)(delay_slider->GetValue() * data.delay.getMaximumDelay()/ 100));	//filtry
 			data.resonance.setResonance(440.0, resonance_slider->GetValue() / 100, true);
 
 
-			data.echo.setDelay(echo_slider->GetValue()*100);		//efekty
+			data.echo.setDelay((unsigned long)(echo_slider->GetValue()*100));		//efekty
 			data.chorus.setModDepth(chorus_slider->GetValue()/1000);
 			data.t60 = reverb_slider->GetValue() / 100;
 			data.reverb.setT60(data.t60);
